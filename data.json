@@ -1,8 +1,34 @@
 {
-  "locations" : [
-    {"location": "Tokyo" },
-    {"location": "New York"},
-    {"location": "Minneapolis"},
-    {"location": "St. Paul"}
+  "cities": [
+    {
+      "name": "Tokyo/Yokohama",
+      "population": 33200000,
+      "landArea": 6993,
+      "density": 4750
+    },
+    {
+      "name": "New York Metro",
+      "population": 17800000,
+      "landArea": 8683,
+      "density": 2050
+    },
+    {
+      "name": "Sao Paulo",
+      "population": 17700000,
+      "landArea": 1968,
+      "density": 9000
+    },
+    {
+      "name": "Seoul/Incheon",
+      "population": 17500000,
+      "landArea": 1049,
+      "density": 16700
+    },
+    {
+      "name": "Mexico City",
+      "population": 17400000,
+      "landArea": 2072,
+      "density": 8400
+    }
   ]
 }
