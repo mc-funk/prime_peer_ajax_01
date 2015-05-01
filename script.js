@@ -4,8 +4,13 @@ var cityName, cityPop, cityArea, cityDensity;
 
 
 $(document).ready(function () {
-    $.get('cities.html', function (data) {
-        $("#cityList").append(data);
+    $.ajax({ //takes in an object. Can do lots of stuff, RTFM
+        method : "GET",
+        url: "cities.html",
+        success: function(data) { //can add many functions for before req sent, if error, etc.
+            $("#cityList").append(data);
+        }
+
     });
     $.get('data.json', function (data) {
             console.log(".get data function is running");
